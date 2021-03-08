@@ -226,10 +226,11 @@ footer{
 
  .chat{
     position: fixed;
-    right: 80px;
-    bottom:200px;
+    right: 50px;
+    bottom:100px;
     padding:10px;
     border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.4));
 }
 
 .chat .oring{
@@ -249,15 +250,16 @@ footer{
 }
 
 footer .chat img{
-    max-width:60px;
+    max-width:40px;
 }
 
 footer .chat ul{
     position: relative;
-    bottom:-110px;
+    bottom:-100px;
     left: 80px;
     color: #006aff;
     border-radius:15px ;
+    filter: drop-shadow(0 0 0.75rem rgba(20, 163, 220,0.5));
 }
 
 footer .chat ul li {
@@ -276,4 +278,5 @@ footer .chat ul li .square{
     transform: rotate(45deg);
     background-color:#fff;
     border-radius:5px;
+    
 }
