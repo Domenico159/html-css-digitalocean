@@ -214,7 +214,52 @@
 footer{
     position: relative;
     background-color: #031c4e;
-    height:800px;
+    color:#7a859d;
+    padding:50px 15px 50px 15px;
+}
+
+footer .social ul{
+    padding-left:0px;
+}
+
+
+footer .social ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right:5px;
+    font-size: 20px;
+}
+
+footer .footer-link ul li {
+    list-style: none;
+    margin-left: 5px;
+    margin-right:5px;
+    font-size: 20px;
+}
+
+footer .footer-link ul li:first-child{
+    font-size:20px;
+    font-weight:900;
+}
+
+footer .footer-link ul li:first-child a{
+    color: #fff;
+}
+
+footer ul li a {
+    color:#7a859d;
+}
+
+footer .footer-link ul li:not(:first-child) a {
+    font-size:16px;
+    font-weight:700;
+}
+footer .footer-link ul{
+    padding-left:0;
+    margin-top: 10px;
+    margin-bottom:10px;
+
 }
 
 .footer-chat{
@@ -278,5 +323,4 @@ footer .chat ul li .square{
     transform: rotate(45deg);
     background-color:#fff;
     border-radius:5px;
-    
 }
