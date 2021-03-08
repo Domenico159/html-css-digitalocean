@@ -55,6 +55,18 @@
     font-size:30px;
     color: #2485fd;
 }
+.header-top .btn-primary{
+    background-color: transparent;
+    color:#016dff;
+    border-color:#016dff;
+    transition: background 0.3s;
+}
+
+.header-top .btn-primary:hover{
+    background-color: #016dff;
+    border-color:#016dff;
+    color: #fff;
+}
 .header-top .btn-default{
     border: none;
     margin: 0;
@@ -85,6 +97,10 @@
     top:50%;
     left: 10px;
     transform: translateY(-50%);
+}
+
+.header-bottom .btn-primary{
+    background-color: #579aff;
 }
 
 /* Main */
@@ -143,4 +159,46 @@
 }
 .carousel-indicators{
     bottom:-150px;
+}
+
+/* Header-bottom */
+.hero-bottom{
+    padding: 30px 15px 100px 15px;
+}
+
+.hero-bottom .card{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.hero-bottom .card a i {
+    margin-left: 10px;
+}
+
+/* Top-data */
+.top-data{
+    background:linear-gradient(45deg,#00219c,#0047c5);
+}
+
+.top-data .table-contain{
+    padding-left: 30px;
+    padding-right:30px;
+}
+
+.top-data table{
+    margin-bottom:50px;
+}
+
+.top-data table tr{
+    line-height: 40px;
+}
+
+.top-data table tr:not(:last-child){
+    border-bottom: 2px solid #fff;
+}
+.top-data table tr td.text-right{
+    padding-right:20px;
+}
+.top-data table tr td.text-right a{
+    color:#00d7d2;
 }
