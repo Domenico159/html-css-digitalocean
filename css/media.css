@@ -1,0 +1,8 @@
+@media screen and (max-width:1199px){
+    .header-top .logo{
+        line-height:60px;
+    }
+    .header-top .navbar.navbar-default.navbar-fixed-top{
+        padding-top:0px;
+    }
+}
