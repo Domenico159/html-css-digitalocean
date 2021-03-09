@@ -16,6 +16,10 @@
     color: #fff;
 }
 
+h5.bold{
+    font-weight: bold;
+}
+
 /* Header-top */
 .header-top .navbar.navbar-default.navbar-fixed-top{
     background-color: #fff;
@@ -164,6 +168,64 @@
 .carousel-indicators{
     bottom:-150px;
 }
+
+.carousel-control{
+    width: 0;
+}
+
+.carousel-control .glyphicon-chevron-right{
+    left: 30px;
+    color:#031c4e ;
+}
+
+.carousel-control .glyphicon-chevron-left{
+    left: -40px;
+    color:#031c4e ;
+}
+
+.glyphicon.second-carousel{
+    font-size: 28px;
+    color: #7a87a2;
+}
+
+.glyphicon.second-carousel:hover{
+    color:#031c4e ;
+    
+}
+
+.glyphicon.second-carousel.glyphicon-chevron-left{
+    position: absolute;
+    top: 50%;
+    left: -50px;
+}
+
+.glyphicon.second-carousel.glyphicon-chevron-right{
+    position: absolute;
+    top: 50%;
+    right: -50px;
+}
+
+.carousel.slide.second-carousel{
+    width: 600px;
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 15px 50px 15px;
+    margin: 0 auto;
+}
+
+.carousel.slide.second-carousel .carousel-inner.second-carousel .item h4{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.carousel.slide.second-carousel .carousel-inner.second-carousel .item a i{
+    margin-left: 20px;
+}
+
+.carousel-inner.second-carousel .item img{
+    display: inline-block;
+}
+
 
 /* Header-bottom */
 .hero-bottom{
