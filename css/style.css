@@ -16,8 +16,20 @@
     color: #fff;
 }
 
-h5.bold{
+h5.bold,
+h1.bold,
+h2.bold,
+h3.bold,
+h4.bold{
     font-weight: bold;
+}
+
+a{
+    color: #006aff;
+}
+a:hover{
+    color: #006aff;
+    text-decoration: underline;
 }
 
 /* Header-top */
@@ -82,6 +94,20 @@ h5.bold{
     padding: 120px 25px 40px 25px;
 }
 
+.header-bottom .text{
+    padding: 15px;
+}
+
+.header-bottom .text h1{
+    font-size:50px;
+    font-weight:900;
+}
+.header-bottom .text p{
+    font-size:20px;
+    font-weight:600;
+    color:#bdc7f2;
+}
+
 .header-bottom .login{
     background-color: #fff;
     border-radius: 5px;
@@ -90,6 +116,14 @@ h5.bold{
 }
 .header-bottom .login img{
     max-width:25px;
+}
+
+.header-bottom .login .btn.btn-primary.btn-lg.btn-block{
+    transition:background-color 0.3s;
+}
+
+.header-bottom .login .btn.btn-primary.btn-lg.btn-block:hover{
+    background-color: #016dff;
 }
 
 .header-bottom .btn:last-child{
@@ -183,8 +217,17 @@ h5.bold{
     color:#031c4e ;
 }
 
+.second-carousel-container h2.bold{
+    color: #031c4e;
+    font-size:30px ;
+}
+.second-carousel-container .text-carousel{
+    margin-bottom:80px;
+    margin-top: 50px;
+}
+
 .glyphicon.second-carousel{
-    font-size: 28px;
+    font-size: 34px;
     color: #7a87a2;
 }
 
@@ -210,7 +253,6 @@ h5.bold{
     background-color: #fff;
     text-align: center;
     padding: 50px 15px 50px 15px;
-    margin: 0 auto;
 }
 
 .carousel.slide.second-carousel .carousel-inner.second-carousel .item h4{
@@ -276,12 +318,26 @@ h5.bold{
     padding:50px 15px 50px 15px;
 }
 
+.get-started button{
+    margin-top:30px;
+    padding:10px;
+    font-size: 18px;
+    font-weight:700;
+    background-color: #fff;
+    color: #006aff;
+    border-radius:10px;
+    transition:background-color 0.3s;
+}
+.get-started button:hover{
+    background-color: #006aff;
+}
+
 /* Footer */
 footer{
     position: relative;
     background-color: #031c4e;
     color:#7a859d;
-    padding:50px 15px 50px 15px;
+    padding:50px 15px 20px 15px;
 }
 
 footer .social ul{
