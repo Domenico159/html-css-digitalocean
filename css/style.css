@@ -44,6 +44,24 @@ a:hover{
     font-weight:600;
 }
 
+.card a{
+    font-size:16px;
+    font-weight:600;
+}
+
+.text-hero h2{
+    color: #0c2455;
+    font-size: 30px;
+    font-weight:700;
+}
+
+.text-hero p{
+    color: #75809a;
+    font-size:20px;
+    font-weight:600;
+    margin-bottom: 30px;
+}
+
 /* Header-top */
 .header-top .navbar.navbar-default.navbar-fixed-top{
     background-color: #fff;
