@@ -190,9 +190,27 @@ a:hover{
     background-color: #f3f5f9;
 }
 
-.first-carousel .text-carousel{
+.first-carousel .text-carousel.first-text{
     margin-bottom: 100px;
 }
+
+.first-carousel .text-carousel.first-text h3{
+    color: #041d4f;
+    font-weight: 700;
+}
+
+.first-carousel .text-carousel.first-text p{
+    color: #747f9a;
+    font-size:20px;
+    font-weight:600;
+}
+.first-carousel h4{
+    color:  #031c4e;
+    font-size:20px;
+    font-weight:600;
+    margin-top:20px;
+}
+
 .carousel-indicators li{
    border-color:#006aff;
 }

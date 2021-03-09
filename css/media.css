@@ -7,6 +7,12 @@
     }
 }
 
+@media screen and (min-width:970px){
+    .carousel-indicators {
+        bottom: -100px;
+    }
+}
+
 @media screen and (max-width:970px){
     .partner-logo ul li{
         vertical-align: middle;
