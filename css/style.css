@@ -112,6 +112,10 @@
     padding:30px;
 }
 
+.partner-logo ul li a img{
+    width: 100%;
+}
+
 .partner-logo ul li{
     vertical-align: middle;
     width: calc(100% / 6 - 5px);
