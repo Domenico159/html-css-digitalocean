@@ -32,6 +32,18 @@ a:hover{
     text-decoration: underline;
 }
 
+.card h3{
+    font-size:20px;
+    font-weight: 700;
+    color: #1e3460;
+}
+
+ .card p{
+    color: #5c6a88;
+    font-size:16px;
+    font-weight:600;
+}
+
 /* Header-top */
 .header-top .navbar.navbar-default.navbar-fixed-top{
     background-color: #fff;
@@ -169,11 +181,17 @@ a:hover{
 
 .hero-top ul li{
     list-style: none;
-    line-height:40px;
+    line-height:50px;
+}
+
+.hero-top ul li a{
+    color: #75809a;
+    font-size:20px;
+    font-weight:600;
 }
 .hero-top ul{
-    padding-left: 20px;
-    border-left: 2px solid #ccc;
+    padding-left: 10px;
+    border-left: 3px solid #75809a;
     margin-top:30px;
     margin-bottom:30px;
 }
@@ -182,6 +200,7 @@ a:hover{
     margin-top:15px;
     margin-bottom:15px;
 }
+
 
 /* First slide */
 .first-carousel{
@@ -308,6 +327,11 @@ a:hover{
 .top-data .table-contain{
     padding-left: 30px;
     padding-right:30px;
+}
+
+.top-data table tr td:nth-child(2){
+    color: #bbc5e7;
+    font-weight: 600;
 }
 
 .top-data table{
