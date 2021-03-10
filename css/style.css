@@ -220,7 +220,13 @@ a:hover{
 }
 
 
-/* First slide */
+/* Two carousel */
+
+
+.carousel-indicators .active{
+    background:#006aff;
+}
+
 .first-carousel{
     padding-top: 30px;
     padding-bottom: 180px;
@@ -321,6 +327,8 @@ a:hover{
 .carousel-inner.second-carousel .item img{
     display: inline-block;
 }
+
+/* END- Two carousel */
 
 
 /* Header-bottom */
